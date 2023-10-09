@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo HTML</title>
+</head>
+<body>
+    <h1>Este es un título principal</h1>
+    
+    <h2>Este es un título secundario</h2>
+    
+    <p>Este es un párrafo de texto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Otra sección con una tabla</h2>
+    
+    <table border="1">
+        <tr>
+            <th>Encabezado de Columna 1</th>
+            <th>Encabezado de Columna 2</th>
+        </tr>
+        <tr>
+            <td>Dato 1, Fila 1</td>
+            <td>Dato 2, Fila 1</td>
+        </tr>
+        <tr>
+            <td>Dato 1, Fila 2</td>
+            <td>Dato 2, Fila 2</td>
+        </tr>
+    </table>
+
+    <h2>Formulario</h2>
+
+    <form action="procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
